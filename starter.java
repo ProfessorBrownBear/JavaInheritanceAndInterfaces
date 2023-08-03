@@ -12,6 +12,7 @@ interface PetStore {
 
         public static void main(String[] args) {
             Pet Peanut = new Pet("dog");
+            System.out.println(Peanut.getNoise(Peanut.typeOfPet));
         }
         public Pet(String typeOfPet) {
             this.typeOfPet = typeOfPet;
